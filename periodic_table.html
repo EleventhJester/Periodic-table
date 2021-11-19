@@ -1,0 +1,294 @@
+<!Doctype html>
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Periodic table </title> 
+  <link rel="stylesheet" href="style (2).css">
+    <style> 
+    
+   td.empty {
+     background-color: whitesmoke;
+     color: white;
+     border-color: white; 
+     cursor: no-drop;
+   }
+   td.test {
+     background-color: pink; 
+     width: 100px;
+    padding: 5.5px;
+    border: 2px solid#8402ff;
+    margin: 0px;
+    box-sizing: border-box;
+    
+   }
+   td.niet-metalen {
+     background-color: lightgreen;
+    
+   }
+   
+   td.alkalimetalen {
+     background-color: salmon;
+   }
+   td.aardkalimetalen {
+     background-color: orange;
+   }
+   td.hoofdgroepmetalen{
+     background-color: rgb(2, 163, 163);
+   }
+   td.metalloiden {
+     background-color: rgb(89, 145, 145);
+   } 
+   td.halogenen {
+     background-color: rgb(151, 151, 252); 
+   }
+   td.edelgassen {
+     background-color:rgb(182, 97, 182);
+   }
+
+   td.actiniden {
+     background-color: #a876d8;
+    
+   }
+   td.one {
+    background-color: pink; 
+   
+
+   }
+  
+    </style>
+</head>
+<body>
+  <center>
+  <h1 style="text-align:center">tailwind refactor needed, periodic table </h1>
+  <!--from dev scratch first project-->
+ <table>
+   <tr>
+      <th>Group</th> <!--Represents first row left-->
+      <th>1</th> <!--follow from left to right-->
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th> 
+      <th>10</th>
+      <th>11</th>
+      <th>12</th>
+      <th>13</th>
+      <th>14</th>
+      <th>15</th>
+      <th>16</th>
+      <th>17</th>
+      <th>18</th>
+   </tr>
+   <tr>
+    <th>Period <br>1</th> 
+    <td class="niet-metalen"><a href="https://en.wikipedia.org/wiki/Hydrogen">1<br>H</a></td>
+    <td class="empty"></td> <!--How to style these empty table data cells-->
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+    <td class="empty"></td> 
+    <td class="edelgassen"><a href="https://en.wikipedia.org/wiki/Helium">2<br>He</a></td>
+ </tr>
+ <tr>
+    <th>2</th>
+      <td class="alkalimetalen"><a href="https://en.wikipedia.org/wiki/Lithium">3<br>Li</a></td>
+      <td class="aardkalimetalen"><a href="https://en.wikipedia.org/wiki/Beryllium">4<br>Be</a></td>
+      <td class="empty"></td>
+      <td class="empty"></td>
+      <td class="empty"></td>
+      <td class="empty"></td> 
+      <td class="empty"></td>
+      <td class="empty"></td>
+      <td class="empty"></td> 
+      <td class="empty"></td>
+      <td class="empty"></td>
+      <td class="empty"></td>
+      <td class="metalloiden"><a href="https://en.wikipedia.org/wiki/Boron">5<br>B</a></td>
+      <td class="niet-metalen"><a href="https://en.wikipedia.org/wiki/Carbon">6<br>C</a></td>
+      <td class="niet-metalen"><a href="https://en.wikipedia.org/wiki/Nitrogen">7<br>N</a></td>
+      <td class="niet-metalen"><a href="https://en.wikipedia.org/wiki/Oxygen">8<br>O</a></td>
+      <td class="halogenen"><a href="https://en.wikipedia.org/wiki/Fluorine">9<br>F</a></td>
+      <td class="edelgassen"><a href="https://en.wikipedia.org/wiki/Neon">10<br>Ne</a></td>
+</tr>
+ <tr>
+   <th>3</th>
+      <td class="alkalimetalen"><a href="https://en.wikipedia.org/wiki/Sodium">11<br>Na</a></td>
+      <td class="aardkalimetalen"><a href="https://en.wikipedia.org/wiki/Magnesium">12<br>Mg</a></td>
+      <td class="empty"></td>
+      <td class="empty"></td>
+      <td class="empty"></td>
+      <td class="empty"></td>
+      <td class="empty"></td>
+      <td class="empty"></td> 
+      <td class="empty"></td>
+      <td class="empty"></td>
+      <td class="empty"></td>
+      <td class="empty"></td>      
+      <td class="hoofdgroepmetalen"><a href="https://en.wikipedia.org/wiki/Aluminium">13<br>Al</a></td>
+      <td class="metalloiden"><a href="https://en.wikipedia.org/wiki/Silicon">14<br>Si</a></td>
+      <td class="niet-metalen"><a href="https://en.wikipedia.org/wiki/Phosphorus">15<br>P</a></td>
+      <td class="niet-metalen"><a href="https://en.wikipedia.org/wiki/Sulfur">16<br>S</a></td>
+      <td class="halogenen"><a href="https://en.wikipedia.org/wiki/Chlorine">17<br>Cl</a></td>
+      <td class="edelgassen"><a href="https://en.wikipedia.org/wiki/Argon">18<br>Ar</a></td>
+ </tr>
+ <tr>
+   <th>4</th>
+   <td class="alkalimetalen"><a href="https://en.wikipedia.org/wiki/Potassium">19<br>K</a></td>
+   <td class="aardkalimetalen"><a href="https://en.wikipedia.org/wiki/Calcium">20<br>Ca</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Scandium">21<br>Sc</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Titanium">22<br>Ti</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Vanadium">23<br>V</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Chromium">24<br>Cr</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Manganese">25<br>Mn</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Iron">26<br>Fe</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Cobalt">27<br>Co</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Nickel">28<br>Ni</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Copper">29<br>Cu</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Zinc">30<br>Zn</a></td>
+   <td class="hoofdgroepmetalen"><a href="https://en.wikipedia.org/wiki/Gallium">31<br>Ga</a></td>
+   <td class="metalloiden"><a href="https://en.wikipedia.org/wiki/Germanium">32<br>Ge</a></td>
+   <td class="metalloiden"><a href="https://en.wikipedia.org/wiki/Arsenic">33<br>As</a></td>
+   <td class="niet-metalen"><a href="https://en.wikipedia.org/wiki/Selenium">34<br>Se</a></td>
+   <td class="halogenen"><a href="https://en.wikipedia.org/wiki/Bromine">35<br>Br</a></td>
+   <td class="edelgassen"><a href="https://en.wikipedia.org/wiki/Krypton">36<br>Kr</a></td>
+ </tr>
+ <tr>
+   <th>5</th>
+   <td class="alkalimetalen"><a href="https://en.wikipedia.org/wiki/Rubidium">37<br>Rb</a></td>
+   <td class="aardkalimetalen"><a href="https://en.wikipedia.org/wiki/Strontium">38<br>Sr</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Yttrium">39<br>Y</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Zirconium">40<br>Zr</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Niobium">41<br>Nb</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Molybdenum">42<br>Mo</a></td> 
+   <td><a href="https://en.wikipedia.org/wiki/Technetium">43<br>Tc</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Ruthenium">44<br>Ru</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Rhodium45">45<br>Rh</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Palladium">46<br>Pd</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Silver">47<br>Ag</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Cadmium">48<br>Cd</a></td>
+   <td class="hoofdgroepmetalen"><a href="https://en.wikipedia.org/wiki/Indium">49<br>Ln</a></td>
+   <td class="hoofdgroepmetalen"><a href="https://en.wikipedia.org/wiki/Tin">50<br>Sn</a></td>
+   <td class="metalloiden"><a href="https://en.wikipedia.org/wiki/Antimony">51<br>Sb</a></td>
+   <td class="metalloiden"><a href="https://en.wikipedia.org/wiki/Tellurium">52<br>Te</a></td> 
+   <td class="halogenen"><a href="https://en.wikipedia.org/wiki/Iodine">53<br>L</a></td>
+   <td class="edelgassen"><a href="https://en.wikipedia.org/wiki/Xenon">54<br>Xe</a></td>
+ </tr>
+ <tr>
+   <th>6</th>
+      <td class="alkalimetalen"><a href="https://en.wikipedia.org/wiki/Caesium">55<br>Cs</a></td>
+      <td class="aardkalimetalen"><a href="https://en.wikipedia.org/wiki/Barium">56<br>Ba</a></td>
+      <td class="one">58-71</td>
+      <td><a href="https://en.wikipedia.org/wiki/Hafnium">72<br>Hf</a></td>
+      <td><a href="https://en.wikipedia.org/wiki/Tantalum">73<br>Ta</a></td>
+      <td><a href="https://en.wikipedia.org/wiki/Tungsten">74<br>W</a></td> 
+      <td><a href="https://en.wikipedia.org/wiki/Rhenium">75<br>Re</a></td>
+      <td><a href="https://en.wikipedia.org/wiki/Osmium">76<br>Os</a></td>
+      <td><a href="https://en.wikipedia.org/wiki/Iridium">77<br>Lr</a></td>
+      <td><a href="https://en.wikipedia.org/wiki/Platinum">78<br>Pt</a></td>
+      <td><a href="https://en.wikipedia.org/wiki/Gold">79<br>Au</a></td>
+      <td type="overgangsmetalen"><a href="https://en.wikipedia.org/wiki/Mercury_(element)">80<br>Hg</a></td>
+      <td class="hoofdgroepmetalen"><a href="https://en.wikipedia.org/wiki/Thallium">81<br>Tl</a></td>
+      <td class="hoofdgroepmetalen"><a href="https://en.wikipedia.org/wiki/Lead"><82<br>Pb</a></td>
+      <td class="hoofdgroepmetalen"><a href="https://en.wikipedia.org/wiki/Bismuth">83<br>Bi</a></td>
+      <td class="hoofdgroepmetalen"><a href="https://en.wikipedia.org/wiki/Polonium">84<br>Po</a></td> 
+      <td class="halogenen"><a href="https://en.wikipedia.org/wiki/Astatine">85<br>At</a></td>
+      <td class="edelgassen"><a href="https://en.wikipedia.org/wiki/Radon">86<br>Rn</a></td>
+ </tr>
+ <tr>
+   <th>7</th>
+   <td class="alkalimetalen"><a href="https://en.wikipedia.org/wiki/Francium">87<br>Fr</a></td>
+   <td class="aardkalimetalen"><a href="https://en.wikipedia.org/wiki/Radium">88<br>Ra</a></td>
+   <td class="actiniden">90-103</td>
+   <td class="7"><a href="https://en.wikipedia.org/wiki/Rutherfordium">104<br>Rf</a></td>
+   <td class="7"><a href="https://en.wikipedia.org/wiki/Dubnium">105<br>Db</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Seaborgium">106<br>Sg</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Bohrium">107<br>Bh</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Hassium">108<br>Hs</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Meitnerium">109<br>Mt</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Darmstadtium">110<br>Ds</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Roentgenium">111<br>Rg</a></td>
+   <td><a href="https://en.wikipedia.org/wiki/Copernicium">112<br>Cn</a></td>
+   <td class="hoofdgroepmetalen"><a href="https://en.wikipedia.org/wiki/Nihonium">113<br>Nh</a></td>
+   <td class="hoofdgroepmetalen"><a href="https://en.wikipedia.org/wiki/Flerovium">114<br>Fl</a></td>
+   <td class="hoofdgroepmetalen"><a href="https://en.wikipedia.org/wiki/Moscovium">115<br>Mc</a></td>
+   <td class="hoofdgroepmetalen"><a href="https://en.wikipedia.org/wiki/Livermorium">116<br>Lv</a></td> 
+   <td class="halogenen"><a href="https://en.wikipedia.org/wiki/Tennessine">117<br>Ts</a></td>
+   <td class="edelgassen"><a href="https://en.wikipedia.org/wiki/Oganesson">118<br>Og</a></td>
+ </tr>
+ </table>
+ </center>
+ 
+  <hr> 
+<center>
+ <table>
+  <tr>
+    <td class="test">Lanthanum<a href="https://en.wikipedia.org/wiki/Lanthanum"><br>57<br>La</a></td>
+    <td class="test">Cerium<a href="https://en.wikipedia.org/wiki/Cerium"><br>58<br>Ce</a></th>
+    <td class="test">Praseodymium<a href="https://en.wikipedia.org/wiki/Praseodymium"><br>59<br>Pr</a></td> 
+    <td class="test">Neodymium<a href="https://en.wikipedia.org/wiki/Neodymium"><br>60<br>Nd</a></td>
+    <td class="test">Promethium<a href="https://en.wikipedia.org/wiki/Promethium"><br>61<br>Pm</a></td>
+    <td class="test">Samarium<a href="https://en.wikipedia.org/wiki/Samarium"><br>62<br>Sm</a></td>   
+    <td class="test">Europium<a href="https://en.wikipedia.org/wiki/Europium"><br>63<br>Eu</td>
+    <td class="test">Gadolinium<a href="https://en.wikipedia.org/wiki/Gadolinium"><br>64<br>Gd</a></td>
+    <td class="test">Terbium<a href="https://en.wikipedia.org/wiki/Terbium"><br>65<br>Tb</a></td>
+    <td class="test">Dysprosium<a href="https://en.wikipedia.org/wiki/Dysprosium"><br>66<br>Dy</a></td> 
+    <td class="test">Holmium<a href="https://en.wikipedia.org/wiki/Holmium"><br>67<br>Ho</a></td> 
+    <td class="test">Erbium<a href="https://en.wikipedia.org/wiki/Erbium"><br>68<br>Er</a></td>
+    <td class="test">Thulium<a href="https://en.wikipedia.org/wiki/Thulium"><br>69<br>Tm</a></td> 
+    <td class="test">Ytterbium<a href="https://en.wikipedia.org/wiki/Ytterbium"><br>70<br>Yb</a></td> 
+    <td class="test">Lutetium<a href="https://en.wikipedia.org/wiki/Lutetium"><br>71<br>Lu</a></td>
+    </tr>
+  <tr>
+    <td class="actiniden">Actinium<a href="https://en.wikipedia.org/wiki/Actinium"><br>89<br>Ac</a></td>
+    <td class="actiniden">Thorium<a href="https://en.wikipedia.org/wiki/Thorium"><br>90<br>Th</a></td> 
+    <td class="actiniden">Protactinium<a href="https://en.wikipedia.org/wiki/Protactinium"><br>91<br>Pa</a></td> 
+    <td class="actiniden">Uranium<a href="https://en.wikipedia.org/wiki/Uranium"><br>92<br>U</a></td> 
+    <td class="actiniden">Neptunium<a href="https://en.wikipedia.org/wiki/Neptunium"><br>93<br>Np</a></td> 
+    <td class="actiniden">Plutonium<a href="https://en.wikipedia.org/wiki/Plutonium"><br>94<br>Pu</a></td> 
+    <td class="actiniden">Americium<a href="https://en.wikipedia.org/wiki/Americium"><br>95<br>Am</a></td> 
+    <td class="actiniden">Curium<a href="https://en.wikipedia.org/wiki/Curium"><br>96<br>Cm</a></td> 
+    <td class="actiniden">Berkelium<a href="https://en.wikipedia.org/wiki/Berkelium"><br>97<br>Bk</a></td> 
+    <td class="actiniden">Californium<a href="https://en.wikipedia.org/wiki/Californium"><br>98<br>Cf</a></td> 
+    <td class="actiniden">Einsteinium<a href="https://en.wikipedia.org/wiki/Einsteinium"><br>99<br>Es</a></td> 
+    <td class="actiniden">Fermium<a href="https://en.wikipedia.org/wiki/Fermium"><br>100<br>Fm</a></td> 
+    <td class="actiniden">Mendelevium<a href="https://en.wikipedia.org/wiki/Mendelevium"><br>101<br>Md</a></td> 
+    <td class="actiniden">Nobelium<a href="https://en.wikipedia.org/wiki/Nobelium"><br>102<br>No</a></td> 
+    <td class="actiniden">Lawrencium<a href="https://en.wikipedia.org/wiki/Lawrencium"><br>103<br>Lr</a></td> 
+  </tr>
+ </table>
+ <hr>
+ </center>
+ <center>
+ <table>
+  <tr>
+ <td class="alkalimetalen" colspan="3">Alkalimetalen</td>
+ <td class="aardkalimetalen" colspan="3">Aardkalimetalen</td>
+ <td class="overgangsmetalen" colspan="3">Overgangsmetalen</td>
+ <td class="hoofdgroepmetalen" colspan="3">Hoofdgroepmetalen</td>
+ <td class="metalloiden" colspan="3">Metalloiden</td>
+  </tr>
+  <tr>
+    <td class="niet-metalen" colspan="3">Niet-metalen</td>
+    <td class="halogenen" colspan="3">Halogenen</td>
+    <td class="edelgassen" colspan="3">Edelgassen</td> 
+    <td class="test" colspan="3">Lathaniden</td>
+    <td class="actiniden" colspan="3">Actiniden</td>
+  </tr>
+</center>
+</table>
+</body>
